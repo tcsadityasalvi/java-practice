@@ -23,7 +23,7 @@ class User1 {
 	}
 }
 
-class Employee1 extends User1{
+class Employee1 extends User1 {
 	@Override
 	public void work() {
 		System.out.println("Emp is working");
