@@ -4,6 +4,7 @@ public class User {
 	
 	private String name;
 	private Long mobileNumber;
+	private Role role;
 	private byte age;
 	
 	//Constructor
