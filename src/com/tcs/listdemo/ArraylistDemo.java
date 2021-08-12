@@ -9,8 +9,17 @@ public class ArraylistDemo {
 	public static void main(String[] args) {
 		List<Integer> numbers = createList();
 		//sortList(numbers);
-		filterList(numbers);
+		//filterList(numbers);
+		otherOps(numbers);
 		
+	}
+	
+	private static void otherOps(List<Integer> numbers) {
+		System.out.println(numbers);
+		numbers.remove(11);
+		System.out.println(numbers);
+		numbers.add(1,50);
+		System.out.println(numbers);
 	}
 
 	public static void filterList(List<Integer> numbers) {
